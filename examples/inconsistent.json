@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "data": {
+    "resultType": "vector",
+    "result": [
+      {"metric": {"__name__": "request_seconds_bucket", "le": "1", "job": "api"}, "value": [1700000000, "8"]},
+      {"metric": {"__name__": "request_seconds_bucket", "le": "0.1", "job": "api"}, "value": [1700000000, "9"]},
+      {"metric": {"__name__": "request_seconds_bucket", "le": "+Inf", "job": "api"}, "value": [1700000000, "11"]},
+      {"metric": {"__name__": "request_seconds_count", "job": "api"}, "value": [1700000000, "12"]},
+      {"metric": {"__name__": "request_seconds_count", "job": "worker"}, "value": [1700000000, "4"]}
+    ]
+  }
+}

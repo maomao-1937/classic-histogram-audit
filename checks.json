@@ -1,0 +1,6 @@
+[
+  {"args": ["classic_histogram_audit.py", "examples/clean.json", "request_seconds"], "exit": 0},
+  {"args": ["classic_histogram_audit.py", "examples/inconsistent.json", "request_seconds"], "exit": 1},
+  {"args": ["classic_histogram_audit.py", "examples/duplicate.json", "request_seconds"], "exit": 1},
+  {"args": ["classic_histogram_audit.py", "examples/clean.json", "missing_metric"], "exit": 2}
+]
